@@ -1,6 +1,5 @@
 .skills {
     text-align: center;
-   
   }
   
   .skills-container {
@@ -52,17 +51,39 @@
   @media (max-width: 468px){
     .skill-card{
       padding: 0.5rem;
-      max-width: 150px;
+      max-width: 130px;
         width: 90%;
         padding: 1rem;
     }
     .skill-card i {
-      font-size: 2rem;
+      font-size: 3rem;
       margin-bottom: 0.5rem;
     }
     .skillName{
       font-size: 1rem;
      
+    }
+    .skills-container{
+      gap: 3rem;
+    }
+  }
+  @media (max-width: 375px){
+    .skill-card{
+      padding: 0.5rem;
+      max-width: 110px;
+        width: 90%;
+        padding: 1rem;
+    }
+    .skill-card i {
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+    }
+    .skillName{
+      font-size: 1rem;
+     
+    }
+    .skills-container{
+      gap: 3rem;
     }
   }
   
