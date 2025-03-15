@@ -40,8 +40,29 @@
 
   @media (max-width: 840px){
     .skill-card{
-        max-width: 400px;
+        max-width: 200px;
         width: 90%;
         padding: 1rem;
     }
+    .skill-card i {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
   }
+  @media (max-width: 468px){
+    .skill-card{
+      padding: 0.5rem;
+      max-width: 150px;
+        width: 90%;
+        padding: 1rem;
+    }
+    .skill-card i {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .skillName{
+      font-size: 1rem;
+     
+    }
+  }
+  
