@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="hero-action">
         <div className="hero-connect">Connect With Me</div>
-        <div className="hero-resume">My-Resume</div>
+        <a  className="hero-resume" href="https://drive.google.com/file/d/1t1jU2IgId07-4sQ7lTK0iol6mhazVpVt/view?usp=drive_link" target="_blank">My_Resume</a>
       </div>
     </div>
   );
